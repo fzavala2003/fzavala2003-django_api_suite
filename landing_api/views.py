@@ -12,7 +12,7 @@ if not firebase_admin._apps:
     cred_path = os.path.join(BASE_DIR, "secrets", "landing-key.json")
     cred = firebase_admin.credentials.Certificate(cred_path)
     firebase_admin.initialize_app(cred, {
-        'databaseURL': 'https://TU-PROYECTO.firebaseio.com'  # Cambia esta URL por la tuya
+        'databaseURL': 'https://prueba-94d59-default-rtdb.firebaseio.com/'  # Cambia esta URL por la tuya
     })
 
 
